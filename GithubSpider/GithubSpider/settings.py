@@ -64,6 +64,7 @@ DOWNLOADER_MIDDLEWARES = {
     'scrapy_splash.SplashCookiesMiddleware': 723,
     'scrapy_splash.SplashMiddleware': 725,
     'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware': 810,
+    'jdscrapy.RandomUserAgent.RandomUserAgent':400,
 }
 # 去重过滤器
 DUPEFILTER_CLASS = 'scrapy_splash.SplashAwareDupeFilter'
